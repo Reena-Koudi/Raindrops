@@ -7,6 +7,9 @@ describe Raindrops do
     it 'responds to method convert with one argument' do
       expect(raindrops).to respond_to(:convert).with(1).argument
     end
-  end
 
+    it 'output "Pling" if the number is divisible by 3' do
+      expect(raindrops.convert(15)).to eq 'Pling'
+    end
+  end
 end
