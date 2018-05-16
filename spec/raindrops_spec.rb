@@ -20,5 +20,9 @@ describe Raindrops do
       expect(raindrops.convert(14)).to eq 'Plong'
     end
 
+    it 'output number if the number is not divisible by 3, 5 or 7' do
+      expect(raindrops.convert(11)).to eq 11
+    end
+
   end
 end
