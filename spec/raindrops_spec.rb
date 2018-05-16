@@ -9,7 +9,12 @@ describe Raindrops do
     end
 
     it 'output "Pling" if the number is divisible by 3' do
-      expect(raindrops.convert(15)).to eq 'Pling'
+      expect(raindrops.convert(21)).to eq 'Pling'
     end
+
+    it 'output "Plong" if the number is divisible by 5' do
+      expect(raindrops.convert(10)).to eq 'Plang'
+    end
+
   end
 end
