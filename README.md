@@ -17,11 +17,12 @@ Examples:
 ## Language
 Ruby
 
-## Getting started
+## SetUp
+
+First make sure you have Rails and Ruby installed.  
+Copy the repository and load the gems:  
+
 git clone https://github.com/Reenakoudi/Raindrops  
-
-gem install bundle  
-
 bundle install
 
 ## Running Tests
