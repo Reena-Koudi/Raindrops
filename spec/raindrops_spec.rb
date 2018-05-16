@@ -1,8 +1,6 @@
 require 'raindrops'
 describe Raindrops do
-
   subject(:raindrops) { described_class.new }
-
   describe '#convert' do
     it 'responds to method convert with one argument' do
       expect(raindrops).to respond_to(:convert).with(1).argument
@@ -21,23 +19,23 @@ describe Raindrops do
     end
 
     it 'output number if the number is not divisible by 3, 5 or 7' do
-      expect(raindrops.convert(11)).to eq "11"
+      expect(raindrops.convert(11)).to eq '11'
     end
 
     it 'output "PlingPlang" if the number is divisible by 3 and 5' do
-      expect(raindrops.convert(15)).to eq "PlingPlang"
+      expect(raindrops.convert(15)).to eq 'PlingPlang'
     end
 
     it 'output "PlingPlong" if the number is divisible by 3 and 7' do
-      expect(raindrops.convert(21)).to eq "PlingPlong"
+      expect(raindrops.convert(21)).to eq 'PlingPlong'
     end
 
     it 'output "PlangPlong" if the number is divisible by 5 and 7' do
-      expect(raindrops.convert(35)).to eq "PlangPlong"
+      expect(raindrops.convert(35)).to eq 'PlangPlong'
     end
 
     it 'output "PlingPlangPlong" if the number is divisible by 3, 5 and 7' do
-      expect(raindrops.convert(315)).to eq "PlingPlangPlong"
+      expect(raindrops.convert(315)).to eq 'PlingPlangPlong'
     end
   end
 end
