@@ -17,4 +17,14 @@ Examples:
 ## Language
 Ruby
 
-## Test
+## Getting started
+git clone https://github.com/Reenakoudi/Raindrops  
+
+gem install bundle  
+
+bundle install
+
+## Running Tests
+$rspec
+
+<img width="509" alt="screen shot 2018-05-16 at 19 46 27" src="https://user-images.githubusercontent.com/34460965/40137295-ed5a95fc-5941-11e8-9c8a-c63499898ea1.png">
