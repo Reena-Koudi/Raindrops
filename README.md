@@ -20,8 +20,8 @@ RSpec
 
 ## My Approach  
 
-To solve the Raindrops Challenge I have used Ruby language and followed the TDD. In my solution there is a class named Raindrops with the method named convert which takes a number as an argument and converts it to the string appropriately. If the number is divisible by 3 it means 3 is a factor of it. Accordingly if number is divisible by 5 and 7 it means 5 and 7 are factors of the given number.  
-I set the logic to return string 'Pling' if divisible by 3, return 'Plang' if divisible by 5 ,return 'Plong' if divisible by 7 and return number itself if its not divisible by 3, 5 or 7. If incase number is divisible by 3 and 5 then the result string concatenates 'Pling' and 'Plang' to return 'PlingPlang' as output. I found that as I did the tech test I focused on following a cycle of, building test, passing test, refactor, making test fail again, passing test again which helped me to write better code.
+To solve the Raindrops Challenge I have used Ruby language and followed TDD. In my solution there is a class named 'Raindrops' with the method named 'convert' which takes the number as an argument and converts it to the string appropriately. If the number is divisible by 3 it means 3 is a factor of it. Accordingly if the number is divisible by 5 and 7 it means 5 and 7 are the factors of the given number.  
+I set the logic to return string 'Pling' if divisible by 3, return 'Plang' if divisible by 5 ,return 'Plong' if divisible by 7 and return the number itself if its not divisible by 3, 5 or 7. If incase number is divisible by 3 and 5 then the result string concatenates 'Pling' and 'Plang' to return 'PlingPlang' as output. I found that as I did the tech test I focused on following a cycle of, building test, passing test, refactor, making test fail again, passing test again which helped me to write better code.
 
 ## SetUp
 
