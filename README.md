@@ -37,3 +37,6 @@ $bundle install
 $rspec
 
 <img width="509" alt="screen shot 2018-05-16 at 19 46 27" src="https://user-images.githubusercontent.com/34460965/40137295-ed5a95fc-5941-11e8-9c8a-c63499898ea1.png">
+
+## Running in IRB  
+<img width="338" alt="screen shot 2018-05-17 at 10 08 53" src="https://user-images.githubusercontent.com/34460965/40168062-7dec22ca-59ba-11e8-9ddc-f26a37b33c0e.png">
